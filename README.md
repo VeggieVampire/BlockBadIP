@@ -1,6 +1,8 @@
 # BlockBadIPs
 Simple iptable blocking script. IP list from blocklist.de
-Basic Properties <br>
+
+
+Basic Properties of the BlockBadIPs-master.zip <br>
 MD5:	0de91c8f6374d18347de66bad2559254 <br>
 SHA-1:	dd80e6972f20a366ab0b7acae3dab96529e45fa5 <br>
 File Type	ZIP: <br>
