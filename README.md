@@ -12,6 +12,9 @@ chmod 777 * <br>
 cd BlockBadIPs <br>
 ./BlockBadIPs.sh <br>
 
+headless mode (No Output)<br>
+./BlockBadIPs.sh 1>/dev/null 2>/dev/null <br>
+
 # UnInstall
 cd BlockBadIPs <br>
 ./UnBlockAllBadIPs.sh <br>
