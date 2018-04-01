@@ -22,7 +22,9 @@ echo "blocklist.de"
 #This list is updated every 30 mins
 #Full list and will take much longer
 wget -O bad_ip_list 'https://lists.blocklist.de/lists/all.txt'
-
+echo "The number of Banded IPs"
+wc -l bad_ip_list
+echo "This will take some time...."
 for x in `cat /home/$USER/bad_ip_list`
  do
 	#checks current iplist from iptables and writes to a file
