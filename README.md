@@ -1,4 +1,4 @@
-# BlockBadIP
+# BlockBadIPs
 Simple iptable blocking script. IP list from blocklist.de
 
 # Install
