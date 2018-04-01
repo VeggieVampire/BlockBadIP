@@ -13,10 +13,15 @@ echo "Getting block list from"
 echo "blocklist.de"
 
 #clear text
-#wget -O bad_ip_list 'http://api.blocklist.de/getlast.php?time=00:00:00'
+#wget -O bad_ip_list 'http://lists.blocklist.de/lists/all.txt'
 
-#non clear text
-wget -O bad_ip_list 'https://api.blocklist.de/getlast.php?time=300'
+#This blocked list is just of the nodes that have been blocked with in 300 secs
+#Not a full list and will be very quick
+#wget -O bad_ip_list 'https://api.blocklist.de/getlast.php?time=300'
+
+#This list is updated every 30 mins
+#Full list and will take much longer
+wget -O bad_ip_list 'https://lists.blocklist.de/lists/all.txt'
 
 for x in `cat /home/$USER/bad_ip_list`
  do
