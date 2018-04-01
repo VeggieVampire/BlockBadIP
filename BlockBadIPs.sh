@@ -25,6 +25,8 @@ wget -O bad_ip_list 'https://lists.blocklist.de/lists/all.txt'
 echo "The number of Banded IPs"
 wc -l bad_ip_list
 echo "This will take some time...."
+echo STARTED
+date
 for x in `cat /home/$USER/bad_ip_list`
  do
 	#checks current iplist from iptables and writes to a file
@@ -45,3 +47,8 @@ for x in `cat /home/$USER/bad_ip_list`
 rm -rf bad_ip_list
 rm -rf current_bad_ip_list
 rm -rf foundIP
+date
+echo FINISHED
+echo "recommended commands:"
+echo "sudo apt-get update"
+echo "sudo apt-get install fail2ban"
