@@ -11,3 +11,10 @@ chmod 777 * <br>
 # Run
 cd BlockBadIPs <br>
 ./BlockBadIPs.sh <br>
+
+# UnInstall
+cd BlockBadIPs <br>
+./UnBlockAllBadIPs.sh <br>
+./UnBlockAllBadIPs.sh <br>
+cd ..
+rm -rf BlockBadIPs
