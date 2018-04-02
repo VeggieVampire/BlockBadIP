@@ -52,3 +52,5 @@ echo FINISHED
 echo "recommended commands:"
 echo "sudo apt-get update"
 echo "sudo apt-get install fail2ban"
+
+sudo iptables-save > /etc/iptables.conf
