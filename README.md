@@ -16,7 +16,7 @@ iptables-restore < /etc/iptables.conf <br>
 # Run
 cd BlockBadIPs <br>
 ./BlockBadIPs.sh <br>
-sudo iptables-save > /etc/iptables.conf <br>
+
 
 headless mode (No Output)<br>
 ./BlockBadIPs.sh 1>/dev/null 2>/dev/null <br>
