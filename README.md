@@ -10,7 +10,7 @@ cd BlockBadIPs<br>
 chmod 777 * <br>
 
 #OPTIONAL
-Add the following command in /etc/rc.local to reload the rules in every reboot. <br>
+Add the following command in /etc/rc.local to reload the rules in every reboot. but It's rather bad idea to place it in rc.local since there would be an open window gap between services start and firewall policy apply. <br>
 iptables-restore < /etc/iptables.conf <br>
 
 # Run
