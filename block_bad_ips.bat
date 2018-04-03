@@ -1,8 +1,5 @@
 @echo off
 setlocal enabledelayedexpansion
-echo "Download https://hosts-file.net/download/hosts.txt"
-echo "Save the text as blockit.txt in the same folder as this script."
-pause
 
 if "%1"=="list" (
   SET /A RULECOUNT=0
