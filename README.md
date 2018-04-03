@@ -20,6 +20,11 @@ cd BlockBadIPs <br>
 
 headless mode (No Output)<br>
 ./BlockBadIPs.sh 1>/dev/null 2>/dev/null <br>
+# Windows
+Download https://hosts-file.net/download/hosts.txt <br>
+Save the text as blockit.txt <br>
+Run, "block_bad_ips.bat"<br>
+
 
 # UnInstall
 cd BlockBadIPs <br>
